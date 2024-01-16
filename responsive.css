@@ -1,0 +1,42 @@
+@media screen and (max-width: 600px) {
+    .header {
+  padding: 0px 16px;
+  margin-bottom: 24px;
+
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  margin-top: 52px;
+}
+.logo {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  color: #131318;
+  font-family: Mulish;
+  font-size: 1rem;
+  font-weight: 800;
+}
+       .menu {
+        display: none;
+    }
+ .hamburger{
+  display:block;
+    }
+    
+
+
+
+
+
+
+
+    .destination-img{
+  display: flex; 
+  flex-direction: column;
+}
+}
+
+@media screen and (min-width: 992px) {
+}
