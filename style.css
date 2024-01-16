@@ -135,11 +135,6 @@ li {
 .popular-tour-description button {
   margin-top: 24px;
 }
-/* .popular-tour-image{
-  /* width: calc(50% - 100px); */
-  margin-right: 20px;
-} */
-/* choose destination starts here */
 
 .choose-destination {
   display: flex;
@@ -398,7 +393,7 @@ good-stuff starts here .good-stuff {
 /* footer starts here */
 .footer {
   width: 100%;
-  padding: 60px;
+  padding: 20px;
   background: rgba(19, 19, 24, 0.05);
   display: flex;
   flex-direction: column;
@@ -419,6 +414,9 @@ good-stuff starts here .good-stuff {
 }
 .footer .footer-icons i {
   margin: 15px;
+}
+.footer hr{
+width: 70%;
 }
 .footer .copyright {
   color: #131318;
