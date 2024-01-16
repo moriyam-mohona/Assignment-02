@@ -357,11 +357,7 @@ margin-bottom: 20px;
   color: #131318;
 font-size: 2rem;
 font-weight: 800;
-
 }
-  
-
-
 .client-feedback{
 border-radius: 16px;
 border: 1px solid rgba(233, 68, 68, 0.20);
@@ -371,7 +367,6 @@ flex-direction: column;
 align-items: center;
 text-align: center;
 max-width: 70%;
-/* position: absolute; */
 }
 .client-feedback p{
   max-width: 80%;
@@ -403,20 +398,21 @@ max-width: 70%;
   color: #131318;
   font-size: 1.5rem;
   font-weight: 800;
-  /* margin-bottom: ; */
 }
 .newsletter-from p {
   color: #5a5a5d;
   font-size: 1rem;
   font-weight: 400;
+
 }
 .newsletter-from > input {
   border-radius: 8px;
   background: rgba(19, 19, 24, 0.05);
   padding: 16px;
   border: none;
-  column-gap: 20px;
-  width: 80%;
+  column-gap: 5px;
+  width: 95%;
+  margin: 0px;
 }
 .newsletter-from hr {
   margin: 20px auto;
