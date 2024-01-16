@@ -30,15 +30,14 @@ hr {
 /* navbar starts here */
 .navbar {
   display: flex;
-  align-items: center;
+  align-items:center;
   margin-top: 52px;
 }
 .logo {
   width: 100%;
   display: flex;
-  align-items: center;
+  /* align-items:end; */
   color: #131318;
-  font-family: Mulish;
   font-size: 1.5rem;
   font-weight: 800;
 }
@@ -284,7 +283,7 @@ li {
   font-size: 1rem;
   font-weight: 400;
 }
-/* deals starts here */
+
 /* perfect-place starts here  */
 .perfect-place {
   display: flex;
