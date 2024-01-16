@@ -56,10 +56,10 @@ hr {
   font-weight: 400;
 }
 .hamburger {
-    display: none;
+  display: none;
 }
 .hamburger img {
-    cursor: pointer;
+  cursor: pointer;
 }
 /* banner starts here */
 .banner {
@@ -105,9 +105,6 @@ hr {
   border-radius: 8px;
   border: none;
 }
-.when{
-  position: relative;
-}
 /* main section starts here */
 .main {
   padding: 0px 135px;
@@ -138,7 +135,10 @@ li {
 .popular-tour-description button {
   margin-top: 24px;
 }
-
+/* .popular-tour-image{
+  /* width: calc(50% - 100px); */
+  margin-right: 20px;
+} */
 /* choose destination starts here */
 
 .choose-destination {
@@ -159,10 +159,13 @@ li {
   font-size: 1rem;
   font-weight: 400;
   max-width: 643px;
+  margin-bottom: 24px;
 }
 .destination-img {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 10px;
+  gap: 10px;
 }
 
 .img-container {
@@ -187,7 +190,12 @@ li {
 }
 
 .img-container {
-  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>);
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url(<path-to-image>);
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -196,30 +204,6 @@ li {
 .img-container:hover .img-overlay {
   opacity: 1;
 }
-
-
-
-/* .destination-img{
-  display: flex; 
-  margin-bottom: 13px;
-  gap: 13px;
-} */
-/* .country-images .row-1 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 24px;
-}
-
-.country-images .row-2 {
-  display: grid;
-  grid-template-columns: repeat(3);
-  grid-gap: 24px;
-}
-.country-images .row-3 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 24px;
-} */
 
 .country-images img {
   border-radius: 16px;
@@ -338,8 +322,7 @@ li {
   max-width: 276px;
   text-align: center;
 }
-/* good-stuff starts here  */
-.good-stuff {
+good-stuff starts here .good-stuff {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -383,18 +366,9 @@ li {
 }
 .newsletter-image {
   width: 60%;
+  position: relative;
 }
-.offer {
-  border-radius: 16px;
-  background: #ff5400;
-  width: 60%;
-  padding: 15px;
-  transform: rotate(-19.628deg);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+
 .offer p {
   color: #fff;
   font-size: 24px;
@@ -405,6 +379,20 @@ li {
   color: #fff;
   font-size: 32px;
   font-weight: 800;
+}
+.offer {
+  border-radius: 16px;
+  background: #ff5400;
+  width: 50%;
+  padding: 15px 5px;
+  transform: rotate(-19.628deg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 13%;
+  right: -7%;
 }
 
 /* footer starts here */
