@@ -1,40 +1,128 @@
 @media screen and (max-width: 600px) {
-    .header {
-  padding: 0px 16px;
-  margin-bottom: 24px;
-
+  .header {
+    padding: 0px 16px;
+    margin-bottom: 24px;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    margin-top: 52px;
+    justify-content: space-between;
+  }
+  .logo {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  .menu {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .banner {
+  height:auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 20px;
 }
-.navbar {
+  .select-location {
   display: flex;
-  align-items: center;
-  margin-top: 52px;
-}
-.logo {
-  width: 50%;
-  display: flex;
-  align-items: center;
-  color: #131318;
-  font-family: Mulish;
-  font-size: 1rem;
-  font-weight: 800;
-}
-       .menu {
-        display: none;
-    }
- .hamburger{
-  display:block;
-    }
-    
-
-
-
-
-
-
-
-    .destination-img{
-  display: flex; 
   flex-direction: column;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  /* padding: 1rem; */
+  gap: 20px;
+  max-width: 100%;
+  height: auto;
+}
+.select-location input {
+  padding:1rem;
+  border-radius: 8px;
+  border: none;
+  width: 20rem;
+
+}
+.select-location select{
+  padding:1.2rem;
+  border-radius: 8px;
+  border: none;
+  width: 22rem;
+}
+
+
+
+/* main section starets here */
+  .main {
+    padding: 0px 16px;
+    margin-bottom: 24px;
+  }
+.popular-tour {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 100px;
+  gap: 20px;
+}
+
+.popular-tour-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+ .destination-img {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  margin-bottom: 10px;
+  /* height: 600px; */
+  gap: 10px;
+}
+.why-choose-us > p {
+  width: 80%;
+}
+.card-row-1 {
+  display: flex;
+  flex-direction: column;
+}
+.card-row-2 {
+  width: 100%;
+}
+.perfect-place {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+.perfect-place-image {
+  width: 100%;
+  height: 400px;
+}
+
+.feedback>h1{
+text-align: center;
+font-size: 1.5rem;
+font-weight: 800;
+}
+.client-feedback{
+text-align: center;
+max-width: 100%;
+}
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+.footer {
+  padding: 5px;
+}
+.footer .footer-icons i {
+  margin: 15px;
 }
 }
 
