@@ -6,13 +6,14 @@
   .navbar {
     display: flex;
     align-items: center;
-    margin-top: 20px;
-    justify-content: space-between;
+    margin-top: 50px;
+    justify-content: space-around;
+    margin-bottom: 20px;
   }
   .logo {
     width: 80%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
   }
   .menu {
     display: none;
@@ -73,12 +74,12 @@
   width: 100%;
 }
  .destination-img {
-  display: flex;
-  flex-direction: column;
-  /* justify-content: space-around; */
-  margin-bottom: 10px;
-  /* height: 600px; */
-  gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+    gap: 10px;
+}
+.why-choose-us {
+  margin-top: 0px;
 }
 .why-choose-us > p {
   width: 80%;
@@ -116,6 +117,17 @@ max-width: 100%;
 }
 .footer {
   padding: 5px;
+}
+.footer-logo {
+    width: 90%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  color: #131318;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 20px;
 }
 .footer .footer-icons i {
   margin: 15px;
